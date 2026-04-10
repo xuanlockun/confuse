@@ -7,4 +7,4 @@ export async function GET(req: Request) {
     host: req.headers.get("host"),
     x_forwarded_host: req.headers.get("x-forwarded-host"),
   });
-}
+} 
